@@ -3,6 +3,16 @@ import React, { Component } from 'react';
 
 class Contact extends Component {
     render() {
+        if(this.props.data){
+            var name = this.props.data.name;
+            var description = this.props.data.description;
+            var website = this.props.data.website;
+            var resumedownload = this.props.data.resumedownload;
+            var street = this.props.data.address.street;
+            var city = this.props.data.address.city;
+            var phone = this.props.data.phone;
+            var email = this.props.data.email;
+        }
         return (
             <div className="App">
                 <section id="contact">
@@ -63,13 +73,13 @@ class Contact extends Component {
                                 <div className="widget widget_contact">
                                     <h4>Address and Phone</h4>
                                     <p className="address">
-                                        Jonathan Doe<br />
-                                        1600 Amphitheatre Parkway <br />
-                                        Mountain View, CA 94043 US <br />
-                                        <span>(123) 456-7890</span>
+                                        {name}<br />
+                                        {street} <br />
+                                        {city} <br />
+                                        <span>{phone}</span>
                                     </p>
                                 </div>
-
+{/*
                                 <div className="widget widget_tweets">
                                     <h4 className="widget-title">Latest Tweets</h4>
                                     <ul id="twitter">
@@ -90,7 +100,8 @@ class Contact extends Component {
                                             <b><a href="#">3 Days Ago</a></b>
                                         </li>
                                     </ul>
-                                </div>
+                                </div>*/}
+
                             </aside>
                         </div>
                     </div>

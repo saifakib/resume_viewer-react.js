@@ -54,6 +54,18 @@
         "url":"http://skype.com",
         "className":"fa fa-skype"
       }
+    ],
+    "work": [
+      {
+        "orgrnization": "CSLit",
+        "position" : "Software Engineering(internship)",
+        "time": "January 2018-June 2018"
+      },
+      {
+        "orgrnization": "BM IT Solution",
+        "position" : "Junior Software Engineer",
+        "time": "Augest 2018- present"
+      }
     ]
   }
 }
