@@ -1,0 +1,59 @@
+
+
+{
+  "main": {
+    "name":"Saif Uddin",
+    "occupation":"Student",
+    "description":"As a Software Engineer, my objective is to make a positive impact on clients, co-workers, and the Internet using my skills and experience to develop and design compelling and attractive web and mobile applications. I enjoy working on projects that involve a mix of web and graphic design, web development, mobile app development and designing, database management and programming and custom software development. In addition, I offer expert search engine optimization and social media marketing.",
+    "image":"profilepic",
+    "bio":"I'm a Manila based graphic designer, illustrator and webdesigner creating awesome and effective visual identities for companies of all sizes around the globe. Let's start scrollingand learn more about me.",
+    "email":"mdsaifakib@gmail.com",
+    "phone":"7429045982",
+    "address":{
+      "street":"36 Road No:02, Niketon",
+      "city":"Dhaka",
+      "state":"efg",
+      "zip":"3563"
+    },
+
+    "website":"http://localhost:3000",
+    "resumedownload":"http://localhost:3000",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/profile.php?id=100004422439441&ref=bookmarks",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/akib_saif",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkdin",
+        "url":"https://www.linkedin.com/in/saif-uddin-931a14151/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instragram",
+        "url":"https://www.instagram.com/akib_saif/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Saif019",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  }
+}
