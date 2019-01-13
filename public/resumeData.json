@@ -6,7 +6,7 @@
     "occupation":"Student",
     "description":"As a Software Engineer, my objective is to make a positive impact on clients, co-workers, and the Internet using my skills and experience to develop and design compelling and attractive web and mobile applications. I enjoy working on projects that involve a mix of web and graphic design, web development, mobile app development and designing, database management and programming and custom software development. In addition, I offer expert search engine optimization and social media marketing.",
     "image":"profilepic",
-    "bio":"I'm a Manila based graphic designer, illustrator and webdesigner creating awesome and effective visual identities for companies of all sizes around the globe. Let's start scrollingand learn more about me.",
+    "bio":"I'm a full stack based web developer. Let's start scrollingand learn more about me.",
     "email":"mdsaifakib@gmail.com",
     "phone":"7429045982",
     "address":{
@@ -46,7 +46,7 @@
       },
       {
         "name":"github",
-        "url":"https://github.com/Saif019",
+        "url":"https://github.com/saifakib",
         "className":"fa fa-github"
       },
       {

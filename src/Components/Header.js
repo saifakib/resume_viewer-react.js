@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         if(this.props.data){
             var name = this.props.data.name;
-            var description = this.props.data.description;
+            var bio = this.props.data.bio;
             var networks = this.props.data.social.map((network) => {
                 return <li key={network.name}><a href={network.url}><i className={network.className}/></a></li>
             })
@@ -32,7 +32,7 @@ class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">Im {name}</h1>
-                            <h3>{ description } learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                            <h3>{ bio } learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                             <hr />
                             <ul className="social">
                                 { networks }
