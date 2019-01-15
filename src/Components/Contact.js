@@ -5,9 +5,7 @@ class Contact extends Component {
     render() {
         if(this.props.data){
             var name = this.props.data.name;
-            var description = this.props.data.description;
             var website = this.props.data.website;
-            var resumedownload = this.props.data.resumedownload;
             var street = this.props.data.address.street;
             var city = this.props.data.address.city;
             var phone = this.props.data.phone;
@@ -61,9 +59,7 @@ class Contact extends Component {
 
                                     </fieldset>
                                 </form>
-
                                 <div id="message-warning"> Error boy</div>
-
                                 <div id="message-success">
                                     <i className="fa fa-check"></i>Your message was sent, thank you!<br />
                                 </div>
@@ -76,6 +72,8 @@ class Contact extends Component {
                                         {name}<br />
                                         {street} <br />
                                         {city} <br />
+                                        {email} <br />
+                                        { website } <br/>
                                         <span>{phone}</span>
                                     </p>
                                 </div>

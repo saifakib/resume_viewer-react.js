@@ -28,7 +28,6 @@ class Portfolio extends Component {
 
                                     <div className="columns portfolio-item">
                                         <div className="item-wrap">
-
                                             <a href="#modal-02" title="">
                                                 <img alt="" src="images/portfolio/console.jpg" />
                                                 <div className="overlay">
@@ -39,13 +38,11 @@ class Portfolio extends Component {
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus"></i></div>
                                             </a>
-
                                         </div>
                                     </div>
 
                                     <div className="columns portfolio-item">
                                         <div className="item-wrap">
-
                                             <a href="#modal-03" title="">
                                                 <img alt="" src="images/portfolio/judah.jpg" />
                                                 <div className="overlay">
@@ -56,13 +53,11 @@ class Portfolio extends Component {
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus"></i></div>
                                             </a>
-
                                         </div>
                                     </div>
 
                                     <div className="columns portfolio-item">
                                         <div className="item-wrap">
-
                                             <a href="#modal-04" title="">
                                                 <img alt="" src="images/portfolio/into-the-light.jpg" />
                                                 <div className="overlay">
@@ -73,7 +68,6 @@ class Portfolio extends Component {
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus"></i></div>
                                             </a>
-
                                         </div>
                                     </div>
 
@@ -96,7 +90,6 @@ class Portfolio extends Component {
 
                                     <div className="columns portfolio-item">
                                         <div className="item-wrap">
-
                                             <a href="#modal-06" title="">
                                                 <img alt="" src="images/portfolio/girl.jpg" />
                                                 <div className="overlay">
@@ -107,13 +100,11 @@ class Portfolio extends Component {
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus"></i></div>
                                             </a>
-
                                         </div>
                                     </div>
 
                                     <div className="columns portfolio-item">
                                         <div className="item-wrap">
-
                                             <a href="#modal-07" title="">
                                                 <img alt="" src="images/portfolio/origami.jpg" />
                                                 <div className="overlay">
@@ -124,7 +115,6 @@ class Portfolio extends Component {
                                                 </div>
                                                 <div className="link-icon"><i className="icon-plus"></i></div>
                                             </a>
-
                                         </div>
                                     </div>
 
@@ -260,7 +250,6 @@ class Portfolio extends Component {
                                     <a className="popup-modal-dismiss">Close</a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
